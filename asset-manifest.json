@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/css/main.78128f67.chunk.css",
+    "main.js": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/js/main.d2648632.chunk.js",
+    "main.js.map": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/js/main.d2648632.chunk.js.map",
+    "runtime-main.js": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/js/runtime-main.7c776041.js",
+    "runtime-main.js.map": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/js/runtime-main.7c776041.js.map",
+    "static/css/2.95f25948.chunk.css": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/css/2.95f25948.chunk.css",
+    "static/js/2.6f9f0153.chunk.js": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/js/2.6f9f0153.chunk.js",
+    "static/js/2.6f9f0153.chunk.js.map": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/js/2.6f9f0153.chunk.js.map",
+    "static/js/3.99918105.chunk.js": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/js/3.99918105.chunk.js",
+    "static/js/3.99918105.chunk.js.map": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/js/3.99918105.chunk.js.map",
+    "index.html": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.78128f67.chunk.css.map": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/css/main.78128f67.chunk.css.map",
+    "static/js/2.6f9f0153.chunk.js.LICENSE.txt": "/merouane2000.github.io/Deaths-And-Cases-Statistics-For-COVID-19/static/js/2.6f9f0153.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c776041.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.6f9f0153.chunk.js",
+    "static/css/main.78128f67.chunk.css",
+    "static/js/main.d2648632.chunk.js"
+  ]
+}

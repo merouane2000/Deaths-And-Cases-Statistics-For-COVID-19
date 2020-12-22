@@ -20,11 +20,15 @@ class App extends React.Component {
                 this.handleFetch = this.handleFetch.bind(this)
                 this.handleChange = this.handleChange.bind(this)
                 this.handleChangeForDate = this.handleChangeForDate.bind(this)
+                
        
 
     }
     handleChange(event) {
-        this.setState({ city: event.target.value });
+        var string = event.target.value ; 
+        var res =  string.charAt(0).toUpperCase() + string.slice(1)
+        
+        this.setState({ city:  res });
     }
     handleChangeForDate(event) {
         this.setState({ spreadDate: event.target.value });
@@ -73,9 +77,8 @@ class App extends React.Component {
                     if (this.state.city === data.Countries[i].Country) {
                         dd.mDeath = data.Countries[i].TotalDeaths
 
-                        console.log(i)
 
-                    } else if ("usa" === this.state.city) {
+                    } else if (("Usa" || "USA" || "usa") === (this.state.city)) {
                         dd.mDeath = data.Countries[182].TotalDeaths
 
                     }
@@ -100,7 +103,8 @@ class App extends React.Component {
         return (
 
             <div className="app">
-                <Navbar bg="light" expand="lg">
+            <div className="grid-container">
+                <Navbar bg="light" expand="lg" className="nav-item">
                     <Navbar.Brand href="#home" className="title">Deaths And Cases Statistics For COVID-19</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -115,7 +119,7 @@ class App extends React.Component {
                         </Form>
                     </Navbar.Collapse>
                 </Navbar>
-                <Container fluid="md sm xs" className="d-flex flex-row justify-content-between md sm xs ">
+                <Container fluid="md sm xs" className="li1-item d-flex flex-row justify-content-between md sm xs ">
 
 
                     <div className="d-flex justify-content-center align-items-center w-25">
@@ -129,7 +133,7 @@ class App extends React.Component {
 
                     <div class="vl"></div>
 
-                    <div className="d-flex justify-content-center w-50">
+                    <div className="main-item d-flex justify-content-center w-50">
                         <div className="d-flex align-items-center">
                             <div class="input-group">
 
@@ -150,7 +154,7 @@ class App extends React.Component {
 
                     <div class="vl"></div>
 
-                    <div className="d-flex justify-content-center align-items-center w-25">
+                    <div className="li2-item d-flex justify-content-center align-items-center w-25">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"> <h5>Total Deaths In {this.state.mCountry} :</h5>
                             <h1 className="d-flex justify-content-center">{this.state.mDeath}</h1>
@@ -163,7 +167,7 @@ class App extends React.Component {
                 
             
        
-                <Container fluid="md sm xs" className="d-flex flex-column justify-content-between alert alert-danger md sm xs" role="alert">
+                <Container fluid="md sm xs" className="none d-flex flex-column justify-content-between alert alert-danger md sm xs" role="alert">
 
                     <div className="d-flex justify-content-center">
 
@@ -188,6 +192,7 @@ class App extends React.Component {
 
 
                 </Container>  
+                </div>
     </div>
         )
 
